@@ -1,0 +1,96 @@
+html {
+    height:100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    padding: 0;
+    min-height: 100%;
+    flex-direction: column;
+}
+
+    .navbar {
+    background: linear-gradient(to right, #800020, black);
+    overflow: hidden;
+    margin: auto;
+}
+
+.navbar .icon {
+    float: left;
+    padding: 14px 16px;
+}
+
+.navbar .logo {
+    width: 100px;
+    height: 75px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+
+.navbar ul li {
+    float: left;
+    font-size: 16px;
+}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    background-color: #ffd700;
+}
+
+.container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 1000px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        button {
+            background-color: #800020;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease;
+        }
+        
+.position {
+	height: 8%;
+}
+
+footer {
+    background: linear-gradient(to right,#800020,black);
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;    
+}
+
+

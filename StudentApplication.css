@@ -1,0 +1,126 @@
+html {
+    height:100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    padding: 0;
+    min-height: 100%;
+    flex-direction: column;
+}
+
+.navbar {
+    background: linear-gradient(to right,#800020,black);
+    overflow: hidden;
+    margin: auto;
+}
+
+.navbar .icon {
+    float: left;
+    padding: 14px 16px;
+}
+
+.navbar .logo {
+    width:100px;
+    height:75px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+
+.navbar ul li {
+    float: left;
+    font-size: 16px;
+    
+}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    background-color: #ffd700;
+}
+
+table {
+    width: 80%;
+    margin: 40px auto;
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table.list {
+    text-align: center;
+    width: 100%;
+}
+
+ th {
+    border: 1px solid rgb(204, 200, 200);
+    text-align: left;
+    padding: 12px 15px;
+    position: relative;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table.list thead > tr {
+    background-color: #800020;
+    color: #FFFFFF;
+}
+input[type="text"], input[type="email"] {
+    width: calc(100% - 40px);
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165, 161, 161);
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input[type="text"]:focus, input[type="email"]:focus {
+    border-color: #333;
+}
+
+input[type="submit"], input[type="reset"], button {
+    background: #eee;
+    padding: 10px 20px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.position {
+	height: 15%;
+	max-width: 800px;
+}
+
+footer {
+    background: linear-gradient(to right,#800020,black);
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;    
+}

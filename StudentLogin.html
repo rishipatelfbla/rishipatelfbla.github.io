@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Student Login Page</title>
+<link href="StudentLogin.css"rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div class = "navbar">
+<div class = "icon">
+<img src="PHS.png" class= "logo"></img>
+</div>
+<br>
+<br>
+<ul>
+<li><a href= "index.html">HOME</a></li>
+</ul>
+</div>
+<center>
+<div class="position">
+</div>
+	<div class="login-container">
+        <h1>Student Login</h1>
+        <form onsubmit="return func()">
+        	<label for="Username">Username:</label>
+            <input type="email" placeholder="Username" name="Username" id="username"required>
+            <label for="Password">Password:</label>
+            <input type="password" placeholder="Password" name="Password" id="password" required>
+            <button type="submit">Login</button>
+        </form>
+   	</div>
+</center>
+<script src="StudentLogin.js"></script>
+</body>
+</html>

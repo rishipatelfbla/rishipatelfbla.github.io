@@ -1,0 +1,78 @@
+<html>
+<head>
+<title>Job Posting Page</title>
+<link href="Demo.css"rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div class = "navbar">
+<div class = "icon">
+<img src="PHS.png" class= "logo"></img>
+</div>
+<br>
+<br>
+<ul>
+<li><a href= "AdminHome.html">HOME</a></li>
+<li><a href= "index.html">LOGOUT</a></li>
+</ul>
+</div>
+<center>
+<br>
+<p>*Admin, this is the Applications page where you can add, edit, and delete job postings as needed. You can also update them based on your students' requirements, ensuring they stay relevant.</p>
+</center>
+<table>
+		<tr>
+			<td>
+				<form autocomplete="off" onsubmit= "onFormSubmit(event)">
+					<div>
+						<label for="jobTitle">Job Title:</label>
+						<input type="text" name="jobTitle" id="jobTitle" required>
+					</div>
+					<div>
+						<label for="jobDescription">Job Description:</label>
+						<input type="text" name="jobDescription" id="jobDescription" required>
+					</div>
+					<div>
+						<label for="company">Company:</label>
+						<input type="text" name="company" id="company" required>
+					</div>
+					<div>
+						<label for="email">Email:</label>
+						<br>
+						<input type="email" name="email" id="email" required>
+					</div>
+					
+					<div class="form_action--button">
+						<input type="submit" value="Submit">
+						<input type="reset" value="Reset">
+					</div>
+				</form>
+				
+				<td>
+					<table class="list" id="jobList">
+						<thead>
+							<tr>
+								<th>Job Title</th>
+								<th>Job Description</th>
+								<th>Company</th>
+								<th>Email</th>
+							</tr>
+						</thead>
+						<tbody>
+							
+						</tbody>
+					</table>
+				</td>
+			</td>
+		</tr>
+	</table>
+	
+
+	<script src="stylejob.js"></script>
+
+ <footer>
+        <p>&copy; 2025 Job Posting Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+

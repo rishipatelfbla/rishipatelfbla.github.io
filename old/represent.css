@@ -1,0 +1,173 @@
+* {
+padding: 0px;
+}
+
+body {
+background-image: url("Desert.png")
+}
+
+.navbar {
+width: 1200px;
+height: 75px;
+margin: auto;
+}
+
+.icon {
+width: 200px;
+float: left;
+height: 70px;
+}
+
+.logo {
+color: #ff7200;
+font-size: 35px;
+font-family: Arial;
+padding-left: 10px;
+float: left;
+padding-top: 10px;
+}
+
+.menu {
+width: 700px;
+float: left;
+height: 700px;
+}
+
+.menu ul {
+float: left;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.menu ul li {
+list-style: none;
+margin-top: 30px;
+margin-left: 100px;
+font-size: 14px;
+}
+
+.menu ul li a {
+text-decoration: none;
+color: white;
+font-family: Arial;
+font-weight: bold;
+transition: 0.4s ease-in-out;
+}
+
+.menu ul li a:hover {
+color: #ff7200;
+}
+
+.logo1 {
+color: white;
+font-size: 35px;
+font-family: Arial;
+padding-left: 240px;
+float: left;
+padding-top: 300px;
+}
+
+.box {
+width: 500px;
+height: 450px;
+border-radius: 10px;
+background-color: white;
+top: 175px;
+left: 700px;
+color: black;
+font-size: 24px;
+text-align: left;
+position: absolute;
+}
+
+.dubai {
+position: absolute;
+top: 125px;
+left: 250px;
+}
+
+.dubai img {
+width: 200px;
+height: 200px;
+}
+
+.represent {
+position: absolute;
+top: 65px;
+left: 280px;
+}
+
+.requirements {
+position: absolute;
+top: 0px;
+left: 20px;
+}
+
+.require {
+font-size: 14px;
+top: 70px;
+left: 0px;
+position: absolute;
+width: 200px;
+height: 200px;
+}
+
+.benefits {
+position: absolute;
+top: 180px;
+left: 20px;
+}
+
+.require2 {
+font-size: 14px;
+top: 70px;
+left: 0px;
+position: absolute;
+width: 200px;
+height: 200px;
+}
+
+.box1 {
+width: 200px;
+height: 40px;
+border-radius: 10px;
+background-color: black;
+top: 395px;
+left: 145px;
+color: white;
+font-size: 24px;
+text-align: left;
+position: absolute;
+}
+
+.apply {
+top: 5px;
+left: 40px;
+color: white;
+font-size: 24px;
+position: absolute;
+}
+.apply a {
+text-decoration: none;
+color: white;
+font-family: Arial;
+transition: 0.4s ease-in-out;
+}
+
+.apply a:hover {
+color: #ff7200;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

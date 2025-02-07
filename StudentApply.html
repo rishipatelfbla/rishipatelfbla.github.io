@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Student Apply Page</title>
+<link href="StudentApply.css"rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div class = "navbar">
+<div class = "icon">
+<img src="PHS.png" class= "logo"></img>
+</div>
+<br>
+<br>
+<ul>
+<li><a href= "StudentHome.html">HOME</a></li>
+</ul>
+</div>
+<center>
+<div class="position">
+</div>
+	<div class="login-container">
+        <h1>Application</h1>
+        <form onsubmit="return onSuccess()">
+        	<label for="name">Name:</label>
+            <input type="text" placeholder="Your Name" name="name" id="name" required>
+            <label for="number">Phone Number:</label>
+            <input type="number" placeholder="Your Number" name="number" id="number" required>
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Your Email" name="email" id="email" required>
+            <button type="submit">Apply</button>
+        </form>
+   	</div>
+</center>
+<script src="StudentApply.js"></script>
+</body>
+</html>

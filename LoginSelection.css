@@ -1,0 +1,92 @@
+html {
+    height:100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right,#800020,black);
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    padding: 0;
+    min-height: 100%;
+    flex-direction: column;
+}
+
+.navbar {
+    background: linear-gradient(to right,#800020,black);
+    overflow: hidden;
+    margin: auto;
+}
+
+.navbar .icon {
+    float: left;
+    padding: 14px 16px;
+}
+
+.navbar .logo {
+    width:100px;
+    height:75px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+
+.navbar ul li {
+    float: left;
+    font-size: 16px;
+    
+}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    background-color: #ffd700;
+}
+
+.position {
+height: 20%;
+}
+
+ .login-container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            border-radius: 12px;
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+        }
+       
+        .login-container h1 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+               
+        .login-container button {
+            width: 100%;
+            padding: 12px;
+            background-color: #800020;
+            border: none;
+            border-radius: 4px;
+            color: #fff;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .login-container button:hover {
+            background-color: #ffd700;
+            color: black;
+        }
